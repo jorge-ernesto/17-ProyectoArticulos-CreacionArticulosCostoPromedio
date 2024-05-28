@@ -1,0 +1,528 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>NetSuite</Author>
+  <LastAuthor>NetSuite</LastAuthor>
+  <Company>NetSuite</Company>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11865</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" ss:Size="8"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Arial" ss:Size="7" ss:Bold="1"/>
+   <Interior ss:Color="#D0D0D0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="7" ss:Bold="1"/>
+   <Interior ss:Color="#D0D0D0" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="8"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Items">
+  <Table ss:ExpandedColumnCount="8" ss:ExpandedRowCount="45" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="54" ss:DefaultRowHeight="10.3125">
+   <Column ss:Width="38.25"/>
+   <Column ss:Width="51"/>
+   <Column ss:Width="267.75" ss:Span="1"/>
+   <Column ss:Index="5" ss:Width="82.5"/>
+   <Column ss:Width="112.5"/>
+   <Column ss:Width="52.5"/>
+   <Column ss:Width="156"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Internal ID</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">NAME</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">DISPLAY NAME</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">PURCHASE DESCRIPTION</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">COSTING METHOD</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">WIP COST VARIANCE ACCOUNT</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">TYPE</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">BIO_CAM_LINEA</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12502</Data></Cell>
+    <Cell><Data ss:Type="String">BK00000001</Data></Cell>
+    <Cell><Data ss:Type="String">5X1 EVOLUTION</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">5X1 EVOLUTION</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">BULK Y PRODUCTOS INTERMEDIOS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12506</Data></Cell>
+    <Cell><Data ss:Type="String">BK00000005</Data></Cell>
+    <Cell><Data ss:Type="String">AGUA PURIFICADA</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">AGUA PURIFICADA</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">BULK Y PRODUCTOS INTERMEDIOS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12507</Data></Cell>
+    <Cell><Data ss:Type="String">BK00000007</Data></Cell>
+    <Cell><Data ss:Type="String">BIO C</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">BIO C</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">BULK Y PRODUCTOS INTERMEDIOS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12509</Data></Cell>
+    <Cell><Data ss:Type="String">BK00000009</Data></Cell>
+    <Cell><Data ss:Type="String">BIOFLAM</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">BIOFLAM</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">BULK Y PRODUCTOS INTERMEDIOS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12500</Data></Cell>
+    <Cell><Data ss:Type="String">BK00000011</Data></Cell>
+    <Cell><Data ss:Type="String">BIOMEC 100 L.A.</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">BIOMEC 100 L.A.</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">BULK Y PRODUCTOS INTERMEDIOS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">11492</Data></Cell>
+    <Cell><Data ss:Type="String">INY0000002</Data></Cell>
+    <Cell><Data ss:Type="String">AUMENTHA ATP x 50 mL</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">AUMENTHA ATP x 50 mL</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">INYECTABLES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">11593</Data></Cell>
+    <Cell><Data ss:Type="String">INY0000003</Data></Cell>
+    <Cell><Data ss:Type="String">AUMENTHA ATP x 100mL</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">AUMENTHA ATP x 100mL</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">INYECTABLES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">11493</Data></Cell>
+    <Cell><Data ss:Type="String">INY0000004</Data></Cell>
+    <Cell><Data ss:Type="String">AUMENTHA ATP x 250mL</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">AUMENTHA ATP x 250mL</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">INYECTABLES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">11594</Data></Cell>
+    <Cell><Data ss:Type="String">INY0000006</Data></Cell>
+    <Cell><Data ss:Type="String">BIO C x 100mL</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">BIO C x 100mL</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">INYECTABLES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">11595</Data></Cell>
+    <Cell><Data ss:Type="String">INY0000007</Data></Cell>
+    <Cell><Data ss:Type="String">BIOFLAM x 100mL</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">BIOFLAM x 100mL</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">INYECTABLES</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">11995</Data></Cell>
+    <Cell><Data ss:Type="String">LIQ0000001</Data></Cell>
+    <Cell><Data ss:Type="String">5X1 EVOLUTION x 250mL</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">5X1 EVOLUTION x 250mL</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">LIQUIDOS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">11996</Data></Cell>
+    <Cell><Data ss:Type="String">LIQ0000002</Data></Cell>
+    <Cell><Data ss:Type="String">5X1 EVOLUTION x 500mL</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">5X1 EVOLUTION x 500mL</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">LIQUIDOS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">11997</Data></Cell>
+    <Cell><Data ss:Type="String">LIQ0000003</Data></Cell>
+    <Cell><Data ss:Type="String">5X1 EVOLUTION x 1L</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">5X1 EVOLUTION x 1L</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">LIQUIDOS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">11998</Data></Cell>
+    <Cell><Data ss:Type="String">LIQ0000004</Data></Cell>
+    <Cell><Data ss:Type="String">5X1 EVOLUTION x 5 L</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">5X1 EVOLUTION x 5 L</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">LIQUIDOS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">17273</Data></Cell>
+    <Cell><Data ss:Type="String">MIP0000001</Data></Cell>
+    <Cell><Data ss:Type="String">GRANULADO DE HIERRO - RACION</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">GRANULADO DE HIERRO - RACION</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">MEZCLA INTERMEDIA POLVO</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">17446</Data></Cell>
+    <Cell><Data ss:Type="String">MIP0000002</Data></Cell>
+    <Cell><Data ss:Type="String">PREMIX - MASCOTABS</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">PREMIX - MASCOTABS</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">MEZCLA INTERMEDIA POLVO</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">13831</Data></Cell>
+    <Cell><Data ss:Type="String">MM00000002</Data></Cell>
+    <Cell><Data ss:Type="String">MM- 5x1 DORADO x 30ml (SACHET)</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">MM- 5x1 DORADO x 30ml (SACHET)</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">MUESTRAS MEDICAS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">13833</Data></Cell>
+    <Cell><Data ss:Type="String">MM00000004</Data></Cell>
+    <Cell><Data ss:Type="String">MM- BIOMEC MAX x 30ml (JERINGA)</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">MM- BIOMEC MAX x 30ml (JERINGA)</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">MUESTRAS MEDICAS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">13795</Data></Cell>
+    <Cell><Data ss:Type="String">MM00000007</Data></Cell>
+    <Cell><Data ss:Type="String">MM PROMOTHOR x 100 mL</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">MM PROMOTHOR x 100 mL</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">MUESTRAS MEDICAS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">13836</Data></Cell>
+    <Cell><Data ss:Type="String">MM00000008</Data></Cell>
+    <Cell><Data ss:Type="String">MM- SULFAQUINOXALINA SULFAMONT x 250ml</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">MM- SULFAQUINOXALINA SULFAMONT x 250ml</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">MUESTRAS MEDICAS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">13837</Data></Cell>
+    <Cell><Data ss:Type="String">MM00000009</Data></Cell>
+    <Cell><Data ss:Type="String">MM- TOLCOCX x 100ml</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">MM- TOLCOCX x 100ml</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">MUESTRAS MEDICAS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">16248</Data></Cell>
+    <Cell><Data ss:Type="String">PIT0000035</Data></Cell>
+    <Cell><Data ss:Type="String">GRANULADO DE HIERRO - RACION</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">GRANULADO DE HIERRO - RACION</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">PRODUCTOS INTERMEDIOS TERCEROS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">17643</Data></Cell>
+    <Cell><Data ss:Type="String">PIT0000036</Data></Cell>
+    <Cell><Data ss:Type="String">PIT-TELOPAR GEL JERINGA X 2 ML</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">PIT-TELOPAR GEL JERINGA X 2 ML</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">PRODUCTOS INTERMEDIOS TERCEROS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12054</Data></Cell>
+    <Cell><Data ss:Type="String">POL0000005</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLEJO B ELECTROLITOS x CJA50</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">COMPLEJO B ELECTROLITOS x CJA50</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">POLVOS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12055</Data></Cell>
+    <Cell><Data ss:Type="String">POL0000011</Data></Cell>
+    <Cell><Data ss:Type="String">ULTRAVIT NF CON MINERALES + METIONINA x CJA50 SOBRES X 10G</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">ULTRAVIT NF CON MINERALES + METIONINA x CJA50 SOBRES X 10G</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">POLVOS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">14409</Data></Cell>
+    <Cell><Data ss:Type="String">POL0000015</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLEJO B NF X 1KG</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">COMPLEJO B NF X 1KG</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">POLVOS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12057</Data></Cell>
+    <Cell><Data ss:Type="String">POL0000024</Data></Cell>
+    <Cell><Data ss:Type="String">BIOMICIN SUPER SOBRE x 1 KG</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">BIOMICIN SUPER SOBRE x 1 KG</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">POLVOS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12058</Data></Cell>
+    <Cell><Data ss:Type="String">POL0000025</Data></Cell>
+    <Cell><Data ss:Type="String">ULTRAVIT NF CON MINERALES + METIONINA SOBRE x 100 G</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">ULTRAVIT NF CON MINERALES + METIONINA SOBRE x 100 G</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">POLVOS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">11991</Data></Cell>
+    <Cell><Data ss:Type="String">SEM0000019</Data></Cell>
+    <Cell><Data ss:Type="String">OTOLOG X 25 ML</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">OTOLOG X 25 ML</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">SEMISOLIDOS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">11992</Data></Cell>
+    <Cell><Data ss:Type="String">SEM0000027</Data></Cell>
+    <Cell><Data ss:Type="String">LIVRE x 15 G</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">LIVRE x 15 G</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">SEMISOLIDOS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12840</Data></Cell>
+    <Cell><Data ss:Type="String">SEM0000031</Data></Cell>
+    <Cell><Data ss:Type="String">BÁLSAMO HIDRATANTE PETCO FCO X 28 g</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">BÁLSAMO HIDRATANTE PETCO FCO X 28 g</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">SEMISOLIDOS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12839</Data></Cell>
+    <Cell><Data ss:Type="String">SEM0000032</Data></Cell>
+    <Cell><Data ss:Type="String">BÁLSAMO HIDRATANTE S/ ETIQUETA FCO X 28 g</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">BÁLSAMO HIDRATANTE S/ ETIQUETA FCO X 28 g</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">SEMISOLIDOS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">14380</Data></Cell>
+    <Cell><Data ss:Type="String">SEM0000033</Data></Cell>
+    <Cell><Data ss:Type="String">CREMA CURATIVA PETCO FCO X 28 g</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">CREMA CURATIVA PETCO FCO X 28 g</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">SEMISOLIDOS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12079</Data></Cell>
+    <Cell><Data ss:Type="String">SOL0000016</Data></Cell>
+    <Cell><Data ss:Type="String">ORALMEC PLUS (B) CJ X 100 TAB</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">ORALMEC PLUS (B) CJ X 100 TAB</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">SOLIDOS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12056</Data></Cell>
+    <Cell><Data ss:Type="String">SOL0000018</Data></Cell>
+    <Cell><Data ss:Type="String">HEPATIN CAPS X 30 CAPSULAS X 530MG</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">HEPATIN CAPS X 30 CAPSULAS X 530MG</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">SOLIDOS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12077</Data></Cell>
+    <Cell><Data ss:Type="String">SOL0000021</Data></Cell>
+    <Cell><Data ss:Type="String">TELOPAR TABS (B) CJ X 100 TAB</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">TELOPAR TABS (B) CJ X 100 TAB</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">SOLIDOS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12078</Data></Cell>
+    <Cell><Data ss:Type="String">SOL0000022</Data></Cell>
+    <Cell><Data ss:Type="String">TELOPAR TABS (B) CJ X 30 TAB</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">TELOPAR TABS (B) CJ X 30 TAB</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">SOLIDOS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12782</Data></Cell>
+    <Cell><Data ss:Type="String">SOL0000024</Data></Cell>
+    <Cell><Data ss:Type="String">GERIAX TABLETA FRASCO X 30 TAB</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">GERIAX TABLETA FRASCO X 30 TAB</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">SOLIDOS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12065</Data></Cell>
+    <Cell><Data ss:Type="String">SOT0000012</Data></Cell>
+    <Cell><Data ss:Type="String">ECTOBULL x 250ML</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">ECTOBULL x 250ML</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">SOLUCIONES TOPICAS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12066</Data></Cell>
+    <Cell><Data ss:Type="String">SOT0000013</Data></Cell>
+    <Cell><Data ss:Type="String">ECTOBULL x 1 L</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">ECTOBULL x 1 L</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">SOLUCIONES TOPICAS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12067</Data></Cell>
+    <Cell><Data ss:Type="String">SOT0000026</Data></Cell>
+    <Cell><Data ss:Type="String">ECTOBULL X CJA 24 FCO GOTERO</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">ECTOBULL X CJA 24 FCO GOTERO</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">SOLUCIONES TOPICAS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12074</Data></Cell>
+    <Cell><Data ss:Type="String">SOT0000073</Data></Cell>
+    <Cell><Data ss:Type="String">VAQUERO x CJA 24 FCO. GOTERO x 30 mL</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">VAQUERO x CJA 24 FCO. GOTERO x 30 mL</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">SOLUCIONES TOPICAS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12075</Data></Cell>
+    <Cell><Data ss:Type="String">SOT0000074</Data></Cell>
+    <Cell><Data ss:Type="String">VAQUERO x 250 mL</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">VAQUERO x 250 mL</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">SOLUCIONES TOPICAS</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12076</Data></Cell>
+    <Cell><Data ss:Type="String">SOT0000075</Data></Cell>
+    <Cell><Data ss:Type="String">VAQUERO x 1 L</Data></Cell>
+    <Cell><Data ss:Type="String"></Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">SOLUCIONES TOPICAS</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>5</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
