@@ -12,6 +12,13 @@ define(['N'],
 
         const { log, file, record } = N;
 
+        /**
+         * Archivos CSV
+         *
+         * 424235: Plantilla de Migración.csv
+         * 426102: TEST02_04 Para Jorge.csv
+         */
+
         /******************/
 
         /**
@@ -33,7 +40,7 @@ define(['N'],
             let data = [];
 
             // Leer archivo
-            const fileId = 424235;
+            const fileId = 426102;
             const csvFile = file.load({ id: fileId });
             const contents = csvFile.getContents();
             const rows = contents.split('\n');
@@ -84,7 +91,7 @@ define(['N'],
             let articulo_displayname = value.display_name;
             let articulo_purchasedescription = value.purchase_description;
             let articulo_costingmethod = 'AVG';
-            let articulo_wipvarianceacct = Number(value.wip_cost_variance_account);
+            let articulo_wipvarianceacct = 6686;
 
             try {
                 // Validar data
