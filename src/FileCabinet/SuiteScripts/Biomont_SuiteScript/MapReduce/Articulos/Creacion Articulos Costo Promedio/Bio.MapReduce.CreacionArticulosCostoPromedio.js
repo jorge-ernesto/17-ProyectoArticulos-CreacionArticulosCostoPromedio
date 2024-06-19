@@ -40,7 +40,7 @@ define(['N'],
             let data = [];
 
             // Leer archivo
-            const fileId = 426102;
+            const fileId = 427389;
             const csvFile = file.load({ id: fileId });
             const contents = csvFile.getContents();
             const rows = contents.split('\n');
@@ -122,6 +122,11 @@ define(['N'],
                     });
 
                     // Modificar la copia si es necesario
+                    // CHECKBOX CORRELATIVO AUTOMATICO
+                    copiedRecord.setValue({
+                        fieldId: 'custitem_bio_articulo_correlativo_auto',
+                        value: false
+                    });
                     // NAME -- Codigo del articulo
                     copiedRecord.setValue({
                         fieldId: 'itemid',

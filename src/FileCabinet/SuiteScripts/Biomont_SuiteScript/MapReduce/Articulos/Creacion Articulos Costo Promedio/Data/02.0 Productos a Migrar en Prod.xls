@@ -1,0 +1,312 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>NetSuite</Author>
+  <LastAuthor>Jose Estela Coronado</LastAuthor>
+  <LastSaved>2024-06-19T14:12:57Z</LastSaved>
+  <Company>NetSuite</Company>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10116</WindowHeight>
+  <WindowWidth>23040</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="8"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Font ss:FontName="Arial" x:Family="Swiss" ss:Size="7" ss:Bold="1"/>
+   <Interior ss:Color="#D0D0D0" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Items">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="20" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="10.199999999999999">
+   <Column ss:Width="38.4"/>
+   <Column ss:Width="51"/>
+   <Column ss:Width="267.60000000000002" ss:Span="1"/>
+   <Column ss:Index="5" ss:Width="57"/>
+   <Column ss:Width="99"/>
+   <Column ss:Width="39"/>
+   <Column ss:Width="141"/>
+   <Column ss:Width="663"/>
+   <Row ss:AutoFitHeight="0">
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Internal ID</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Name</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Display Name</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Purchase Description</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Costing Method</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">WIP Cost Variance Account</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">Type</Data></Cell>
+    <Cell ss:StyleID="s62"><Data ss:Type="String">BIO_CAM_LINEA</Data></Cell>
+    <Cell ss:Formula="=+CONCATENATE(RC[-8],&quot;;&quot;,RC[-7])"><Data
+      ss:Type="String">Internal ID;Name</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12515</Data></Cell>
+    <Cell><Data ss:Type="String">BK00000016</Data></Cell>
+    <Cell><Data ss:Type="String">BIOMICIN SUPER</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">BIOMICIN SUPER</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">BULK Y PRODUCTOS INTERMEDIOS</Data></Cell>
+    <Cell ss:Formula="=+CONCATENATE(RC[-8],&quot;;&quot;,RC[-7],&quot;@&quot;)"><Data
+      ss:Type="String">12515;BK00000016@</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12528</Data></Cell>
+    <Cell><Data ss:Type="String">BK00000029</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLEJO B ELECTROLITOS</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">COMPLEJO B ELECTROLITOS</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">BULK Y PRODUCTOS INTERMEDIOS</Data></Cell>
+    <Cell ss:Formula="=+CONCATENATE(RC[-8],&quot;;&quot;,RC[-7],&quot;@&quot;)"><Data
+      ss:Type="String">12528;BK00000029@</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12557</Data></Cell>
+    <Cell><Data ss:Type="String">BK00000060</Data></Cell>
+    <Cell><Data ss:Type="String">TRANQUILISS GOTAS</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">TRANQUILISS GOTAS</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">BULK Y PRODUCTOS INTERMEDIOS</Data></Cell>
+    <Cell ss:Formula="=+CONCATENATE(RC[-8],&quot;;&quot;,RC[-7],&quot;@&quot;)"><Data
+      ss:Type="String">12557;BK00000060@</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12560</Data></Cell>
+    <Cell><Data ss:Type="String">BK00000063</Data></Cell>
+    <Cell><Data ss:Type="String">ULTRAVIT NF CON MINERALES + METIONINA</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">ULTRAVIT NF CON MINERALES + METIONINA</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">BULK Y PRODUCTOS INTERMEDIOS</Data></Cell>
+    <Cell ss:Formula="=+CONCATENATE(RC[-8],&quot;;&quot;,RC[-7],&quot;@&quot;)"><Data
+      ss:Type="String">12560;BK00000063@</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12569</Data></Cell>
+    <Cell><Data ss:Type="String">BK00000073</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLEJO B NF</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">COMPLEJO B NF</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">BULK Y PRODUCTOS INTERMEDIOS</Data></Cell>
+    <Cell ss:Formula="=+CONCATENATE(RC[-8],&quot;;&quot;,RC[-7],&quot;@&quot;)"><Data
+      ss:Type="String">12569;BK00000073@</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12584</Data></Cell>
+    <Cell><Data ss:Type="String">BK00000089</Data></Cell>
+    <Cell><Data ss:Type="String">OTOLOG</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">OTOLOG</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">BULK Y PRODUCTOS INTERMEDIOS</Data></Cell>
+    <Cell ss:Formula="=+CONCATENATE(RC[-8],&quot;;&quot;,RC[-7],&quot;@&quot;)"><Data
+      ss:Type="String">12584;BK00000089@</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12630</Data></Cell>
+    <Cell><Data ss:Type="String">BK00000135</Data></Cell>
+    <Cell><Data ss:Type="String">HEPATIN PASTA</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">HEPATIN PASTA</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">BULK Y PRODUCTOS INTERMEDIOS</Data></Cell>
+    <Cell ss:Formula="=+CONCATENATE(RC[-8],&quot;;&quot;,RC[-7],&quot;@&quot;)"><Data
+      ss:Type="String">12630;BK00000135@</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12656</Data></Cell>
+    <Cell><Data ss:Type="String">BK00000162</Data></Cell>
+    <Cell><Data ss:Type="String">ORALMEC PLUS</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">ORALMEC PLUS</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">BULK Y PRODUCTOS INTERMEDIOS</Data></Cell>
+    <Cell ss:Formula="=+CONCATENATE(RC[-8],&quot;;&quot;,RC[-7],&quot;@&quot;)"><Data
+      ss:Type="String">12656;BK00000162@</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12657</Data></Cell>
+    <Cell><Data ss:Type="String">BK00000163</Data></Cell>
+    <Cell><Data ss:Type="String">HEMATOLIC</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">HEMATOLIC</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell><Data ss:Type="String">6686 </Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">BULK Y PRODUCTOS INTERMEDIOS</Data></Cell>
+    <Cell ss:Formula="=+CONCATENATE(RC[-8],&quot;;&quot;,RC[-7],&quot;@&quot;)"><Data
+      ss:Type="String">12657;BK00000163@</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12011</Data></Cell>
+    <Cell><Data ss:Type="String">LIQ0000038</Data></Cell>
+    <Cell><Data ss:Type="String">TRANQUILISS GOTAS x 15 mL</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">TRANQUILISS GOTAS x 15 mL</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell><Data ss:Type="String">6686</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">LIQUIDOS</Data></Cell>
+    <Cell ss:Formula="=+CONCATENATE(RC[-8],&quot;;&quot;,RC[-7],&quot;@&quot;)"><Data
+      ss:Type="String">12011;LIQ0000038@</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12052</Data></Cell>
+    <Cell><Data ss:Type="String">LIQ0000207</Data></Cell>
+    <Cell><Data ss:Type="String">HEMATOLIC x 30 mL</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">HEMATOLIC x 30 mL</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell><Data ss:Type="String">6686</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">LIQUIDOS</Data></Cell>
+    <Cell ss:Formula="=+CONCATENATE(RC[-8],&quot;;&quot;,RC[-7],&quot;@&quot;)"><Data
+      ss:Type="String">12052;LIQ0000207@</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12059</Data></Cell>
+    <Cell><Data ss:Type="String">POL0000026</Data></Cell>
+    <Cell><Data ss:Type="String">ULTRAVIT NF CON MINERALES + METIONINA SOBRE x 1 KG</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">ULTRAVIT NF CON MINERALES + METIONINA SOBRE x 1 KG</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell><Data ss:Type="String">6686</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">POLVOS</Data></Cell>
+    <Cell ss:Formula="=+CONCATENATE(RC[-8],&quot;;&quot;,RC[-7],&quot;@&quot;)"><Data
+      ss:Type="String">12059;POL0000026@</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12060</Data></Cell>
+    <Cell><Data ss:Type="String">POL0000027</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLEJO B NF SOBRE x 100 G</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">COMPLEJO B NF SOBRE x 100 G</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell><Data ss:Type="String">6686</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">POLVOS</Data></Cell>
+    <Cell ss:Formula="=+CONCATENATE(RC[-8],&quot;;&quot;,RC[-7],&quot;@&quot;)"><Data
+      ss:Type="String">12060;POL0000027@</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12061</Data></Cell>
+    <Cell><Data ss:Type="String">POL0000028</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLEJO B NF SOBRE x 1 KG</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">COMPLEJO B NF SOBRE x 1 KG</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell><Data ss:Type="String">6686</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">POLVOS</Data></Cell>
+    <Cell ss:Formula="=+CONCATENATE(RC[-8],&quot;;&quot;,RC[-7],&quot;@&quot;)"><Data
+      ss:Type="String">12061;POL0000028@</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12062</Data></Cell>
+    <Cell><Data ss:Type="String">POL0000029</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLEJO B ELECTROLITOS SOBRE x 100 G</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">COMPLEJO B ELECTROLITOS SOBRE x 100 G</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell><Data ss:Type="String">6686</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">POLVOS</Data></Cell>
+    <Cell ss:Formula="=+CONCATENATE(RC[-8],&quot;;&quot;,RC[-7],&quot;@&quot;)"><Data
+      ss:Type="String">12062;POL0000029@</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12063</Data></Cell>
+    <Cell><Data ss:Type="String">POL0000030</Data></Cell>
+    <Cell><Data ss:Type="String">COMPLEJO B ELECTROLITOS SOBRE x 1 KG</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">COMPLEJO B ELECTROLITOS SOBRE x 1 KG</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell><Data ss:Type="String">6686</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">POLVOS</Data></Cell>
+    <Cell ss:Formula="=+CONCATENATE(RC[-8],&quot;;&quot;,RC[-7],&quot;@&quot;)"><Data
+      ss:Type="String">12063;POL0000030@</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12064</Data></Cell>
+    <Cell><Data ss:Type="String">POL0000031</Data></Cell>
+    <Cell><Data ss:Type="String">BIOMICIN SUPER SOBRE x 200 G</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">BIOMICIN SUPER SOBRE x 200 G</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell><Data ss:Type="String">6686</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">POLVOS</Data></Cell>
+    <Cell ss:Formula="=+CONCATENATE(RC[-8],&quot;;&quot;,RC[-7],&quot;@&quot;)"><Data
+      ss:Type="String">12064;POL0000031@</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12929</Data></Cell>
+    <Cell><Data ss:Type="String">POL0000032</Data></Cell>
+    <Cell><Data ss:Type="String">BIOMICIN SUPER x CJA 50 SOBRES (NS)</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">BIOMICIN SUPER x CJA 50 SOBRES (NS)</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell><Data ss:Type="String">6686</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">POLVOS</Data></Cell>
+    <Cell ss:Formula="=+CONCATENATE(RC[-8],&quot;;&quot;,RC[-7],&quot;@&quot;)"><Data
+      ss:Type="String">12929;POL0000032@</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0">
+    <Cell><Data ss:Type="Number">12032</Data></Cell>
+    <Cell><Data ss:Type="String">SEM0000110</Data></Cell>
+    <Cell><Data ss:Type="String">HEPATIN PASTA X 60ML</Data></Cell>
+    <Cell ss:Formula="=+RC[-1]"><Data ss:Type="String">HEPATIN PASTA X 60ML</Data></Cell>
+    <Cell><Data ss:Type="String">Average</Data></Cell>
+    <Cell><Data ss:Type="String">6686</Data></Cell>
+    <Cell><Data ss:Type="String">Assembly</Data></Cell>
+    <Cell><Data ss:Type="String">SEMISOLIDOS</Data></Cell>
+    <Cell ss:Formula="=+CONCATENATE(RC[-8],&quot;;&quot;,RC[-7],&quot;@&quot;)"><Data
+      ss:Type="String">12032;SEM0000110@</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>9</ActiveRow>
+     <ActiveCol>1</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
