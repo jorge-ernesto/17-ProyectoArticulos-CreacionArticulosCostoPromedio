@@ -40,7 +40,7 @@ define(['N'],
             let data = [];
 
             // Leer archivo
-            const fileId = 427389;
+            const fileId = 427549;
             const csvFile = file.load({ id: fileId });
             const contents = csvFile.getContents();
             const rows = contents.split('\n');
@@ -142,6 +142,11 @@ define(['N'],
                         fieldId: 'purchasedescription',
                         value: articulo_purchasedescription
                     });
+                    // STOCK DESCRIPCION -- Descripcion de stock
+                    // copiedRecord.setValue({
+                    //     fieldId: 'stockdescription',
+                    //     value: 'Stock Description'
+                    // });
                     // COSTING METHOD -- Metodo de calculos de costos
                     copiedRecord.setValue({
                         fieldId: 'costingmethod',
