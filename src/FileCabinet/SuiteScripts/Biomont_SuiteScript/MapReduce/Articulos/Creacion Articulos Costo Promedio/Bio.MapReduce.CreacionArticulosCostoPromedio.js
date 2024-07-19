@@ -40,7 +40,7 @@ define(['N'],
             let data = [];
 
             // Leer archivo
-            const fileId = 495528;
+            const fileId = 511690;
             const csvFile = file.load({ id: fileId });
             const contents = csvFile.getContents();
             const rows = contents.split('\n');
@@ -130,7 +130,7 @@ define(['N'],
                     // NAME -- Codigo del articulo
                     copiedRecord.setValue({
                         fieldId: 'itemid',
-                        value: articulo_itemid
+                        value: articulo_itemid + 'X'
                     });
                     // DISPLAY NAME -- Descripcion del articulo
                     copiedRecord.setValue({
